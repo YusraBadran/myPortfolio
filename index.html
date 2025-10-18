@@ -11,63 +11,72 @@
 <body>
     <section class="header">
         <nav class="nav-links">
-           
+    
                 <ul>
                     <li><a href="#">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="cours.html">RESUME</a></li>
-                    <li><a href="blog.html">SERVICES</a></li>
-                    <li><a href="contact.html">PORTFOLIO</a></li>
-                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="#about">SERVICES</a></li>
+                    <li><a href="#resum">RESUME</a></li>
+                    <li><a href="">PORTFOLIO</a></li>
+                    <li><a href="">CONTACT US</a></li>
                 </ul>
             
         </nav>
 
          <div class="text-box">
-            <div class="text-left">
+
+            <div class="text-contant">
                 <h1>Yusra Badran</h1>
             <p>Welcome to my portfolio website. you can  find  <br> information about my work and skills
             </p>
-            <a href="" class="hero-btn">Visit Us To Know More</a>
+            <a href="" class="hero-btn" onclick="window.open('./img/yusra-badran.pdf')">Download CV</a>
             </div>
-            <div class="text-right">
+
+            <div class="text-img">
                 <img src="img/personal.png" alt="">
             </div>
         </div>
     </section>
 
-    <section class="about">
+
+<!-- services section -->
+
+    <section class="about" id="about">
         <h2>What I Do</h2>
 
         <div class="row">
 
             <div class="about-col">
-                <h3>Web Design</h3>
+                <i class="fa-solid fa-laptop-code "></i>
+                <h3>UI/UX Design</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
             </div>
             
              <div class="about-col">
-                <h3>UI/UX Design</h3>
+                <i class="fa-solid fa-code "></i>
+                <h3>Web Development</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
             </div>
 
              <div class="about-col">
-                <h3>Creative Design</h3>
+                <i class="fa-solid fa-video "></i>
+                <h3>Video Editing</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
             </div>
         
              <div class="about-col">
+                <i class="fa-solid fa-pen-fancy "></i>
                 <h3>Graphic Designer</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
             </div>
 
              <div class="about-col">
-                <i class="fa-regular fa-camera fa-xl"></i>
+                <i class="fa-regular fa-camera "></i>
                 <h3>Photography</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
             </div>
 
              <div class="about-col">
+                <i class="fa-solid fa-mobile-screen-button "></i>
                 <h3>Mobile App</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
             </div>
@@ -75,5 +84,56 @@
         </div>
 
     </section>
+
+<!-- RESUME section -->
+ 
+<section class="resum" id="resum">
+    <h2>My Resume</h2>
+    <div class="edu">
+        
+            <div class="res-col">
+                <strong>Bachelor in Information Technology (IT)</strong><br>
+                <p>
+                    Modern Science University | GPA: 92.78%<br>
+                2020 – 2024
+                </p>
+            </div>
+            <div class="res-col">
+                <strong>Master of Business Administration (MBA)</strong><br>
+                <p>
+                     Yemeni Academy for Higher Studies – Sana'a<br>
+                Expected Graduation: 2027 | Start: Late 2025
+                </p>
+               
+            </div>
+            <div class="res-col">
+                <strong>Diploma in Computer Maintenance (CMD)</strong><br>
+                <p>Public Institute for Telecommunications | 2022</p>
+            </div>
+            <div class="res-col">
+                <strong>Diploma in Graphic Design</strong><br>
+                <p>
+                    Public Institute for Telecommunications | 2025
+                </p>
+            </div>
+            
+            <div class="res-col">
+                <strong>International Computer Driving License (ICDL)</strong><br>
+                <p>
+                    Public Institute for Telecommunications | 2020
+                </p>
+            </div>
+            <div class="res-col">
+                <strong>Diploma in English Language</strong><br>
+                <p>
+                    Speak Up Institute | 2025
+                </p>
+            </div>
+            
+
+    </div>
+</section>
+
+
 </body>
 </html>
